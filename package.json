@@ -1,0 +1,15 @@
+{
+  "name": "ethereum-smart-contracts-solidity",
+  "version": "1.0.0",
+  "description": "Desarrollo y despliegue de contratos inteligentes en Ethereum con Solidity.",
+  "main": "index.js",
+  "dependencies": {
+    "truffle": "^5.5.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "@soybrendacuevas",
+  "license": "MIT"
+}
