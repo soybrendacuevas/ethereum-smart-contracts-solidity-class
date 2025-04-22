@@ -54,13 +54,13 @@ Una vez desplegado, abre la consola de Truffle y ejecuta los siguientes comandos
    console.log(value.toString());
 ---
 ## Estructura de Archivos
-- contracts/: Contiene los contratos inteligentes en Solidity.
-- SimpleStorage.sol: El contrato inteligente que permite almacenar y recuperar un número.
-- migrations/: Carpeta de migraciones, encargada de desplegar contratos en la blockchain.
-- 1_initial_migration.js: Migración inicial para desplegar el contrato de Truffle.
-- 2_deploy_contracts.js: Migración para desplegar el contrato SimpleStorage.
-- test/: Carpeta de pruebas unitarias.
-      - simpleStorageTest.js: Prueba unitaria para verificar que el contrato funcione correctamente.
+- contracts/: Contiene los contratos inteligentes en Solidity.   <br> 
+SimpleStorage.sol: El contrato inteligente que permite almacenar y recuperar un número.
+- migrations/: Carpeta de migraciones, encargada de desplegar contratos en la blockchain. <br> 
+  1_initial_migration.js: Migración inicial para desplegar el contrato de Truffle. <br> 
+  2_deploy_contracts.js: Migración para desplegar el contrato SimpleStorage.
+- test/: Carpeta de pruebas unitarias.  <br> 
+  simpleStorageTest.js: Prueba unitaria para verificar que el contrato funcione correctamente.
 - truffle-config.js: Archivo de configuración de Truffle para redes de despliegue y compilación de contratos.
 - README.md: Este archivo, que explica cómo utilizar el repositorio.
 - package.json: Gestión de dependencias y scripts de Node.js.
